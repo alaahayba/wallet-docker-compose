@@ -1,4 +1,8 @@
 # wallet-docker-compose
-##
-RUN
--- ./start.sh
+## RUN
+
+Use the start dile to run docker compose.
+
+```bash
+./start.sh
+```
