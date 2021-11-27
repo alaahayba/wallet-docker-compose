@@ -1,4 +1,4 @@
 # wallet-docker-compose
 ##
 RUN
-./start
+-- ./start.sh
