@@ -13,8 +13,7 @@ git clone https://github.com/alaahayba/wallet-UI.git
 
 ## run docker compse file
 echo -e "${NC}👉 ${Green} run docker compose file ${lightGray}..."
-docker-compose up -d 
-
+docker-compose --env-file ./dev.env  up -d 
 echo -e "${NC}👉 ${Green} run mysql init ${lightGray}..."
 ./init.sh 127.0.0.1 3307 root P4sSw0rd0! wallet
 ###check if package exist and skip
